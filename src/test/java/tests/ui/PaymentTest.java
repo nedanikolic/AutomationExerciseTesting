@@ -1,11 +1,12 @@
-package tests;
+package tests.ui;
 
 
 import org.testng.annotations.Test;
 import pages.*;
+import tests.BaseTest;
 
 
-public class PaymentTest extends BaseTest{
+public class PaymentTest extends BaseTest {
     private PaymentTest(){}
 
     HeaderPage headerPage = new HeaderPage();

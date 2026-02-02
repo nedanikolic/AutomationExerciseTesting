@@ -1,13 +1,14 @@
-package tests;
+package tests.ui;
 
 import models.UserData;
 import org.testng.annotations.Test;
 import pages.HeaderPage;
 import pages.SignUpPage;
 import factories.UserFactory;
+import tests.BaseTest;
 
 
-public class SignUpTest extends BaseTest{
+public class SignUpTest extends BaseTest {
     private SignUpTest(){}
 
     HeaderPage headerPage = new HeaderPage();

@@ -1,12 +1,13 @@
-package tests;
+package tests.ui;
 
 import org.testng.annotations.Test;
 import pages.CartPage;
 import pages.HeaderPage;
 import pages.LoginPage;
 import pages.ProductListPage;
+import tests.BaseTest;
 
-public class AddToCartTest extends BaseTest{
+public class AddToCartTest extends BaseTest {
     private AddToCartTest (){}
     HeaderPage headerPage = new HeaderPage();
     LoginPage loginPage = new LoginPage();

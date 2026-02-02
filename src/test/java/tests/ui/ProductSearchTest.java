@@ -1,10 +1,11 @@
-package tests;
+package tests.ui;
 
 import org.testng.annotations.Test;
 import pages.HeaderPage;
 import pages.ProductListPage;
+import tests.BaseTest;
 
-public class ProductSearchTest extends BaseTest{
+public class ProductSearchTest extends BaseTest {
     private ProductSearchTest(){}
 
     HeaderPage headerPage = new HeaderPage();

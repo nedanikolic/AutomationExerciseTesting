@@ -1,10 +1,11 @@
-package tests;
+package tests.ui;
 
 import org.testng.annotations.Test;
 import pages.HeaderPage;
 import pages.LoginPage;
+import tests.BaseTest;
 
-public class LoginTest extends BaseTest{
+public class LoginTest extends BaseTest {
     private LoginTest (){}
 
     LoginPage loginPage = new LoginPage();

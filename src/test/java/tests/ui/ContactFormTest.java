@@ -1,13 +1,14 @@
-package tests;
+package tests.ui;
 
 import org.testng.annotations.Test;
 import pages.ContactPage;
 import pages.HeaderPage;
+import tests.BaseTest;
 import utils.FileUtils;
 
 import java.io.IOException;
 
-public class ContactFormTest extends BaseTest{
+public class ContactFormTest extends BaseTest {
     private ContactFormTest (){}
     HeaderPage headerPage = new HeaderPage();
     ContactPage contactPage = new ContactPage();
